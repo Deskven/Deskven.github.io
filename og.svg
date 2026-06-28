@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="30%" cy="20%" r="90%">
+      <stop offset="0%" stop-color="#9966CC" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#7F00FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0B0B0E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0B0B0E"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <text x="80" y="300" font-family="Georgia, serif" font-size="76" fill="#FFFAFA">Atelier</text>
+  <text x="82" y="372" font-family="Georgia, serif" font-size="40" fill="#9966CC" font-style="italic">Kitchen-Sink Showcase</text>
+  <text x="84" y="430" font-family="monospace" font-size="22" fill="#B2BEB5">heroes · gradients · motion · 3D · adaptive video · type</text>
+</svg>

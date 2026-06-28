@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Studio Demos">
+  <rect width="64" height="64" rx="14" fill="#0B0B0E"/>
+  <g>
+    <rect x="14" y="14" width="16" height="16" rx="3" fill="#9966CC"/>
+    <rect x="34" y="14" width="16" height="16" rx="3" fill="#ED2100"/>
+    <rect x="14" y="34" width="16" height="16" rx="3" fill="#FFBF00"/>
+    <rect x="34" y="34" width="16" height="16" rx="3" fill="#007FFF"/>
+  </g>
+</svg>

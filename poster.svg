@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="p" cx="60%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#2C5F34" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#36454F" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0B0B0E" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#0B0B0E"/>
+  <rect width="1280" height="720" fill="url(#p)"/>
+  <text x="64" y="660" font-family="monospace" font-size="24" fill="#B2BEB5">poster · instant first paint</text>
+</svg>

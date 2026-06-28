@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Varmt opplyst spisesal ved skumring">
+  <defs>
+    <radialGradient id="glow1" cx="26%" cy="34%" r="55%">
+      <stop offset="0%" stop-color="#ff8a3c" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#e35336" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#180e08" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="72%" cy="58%" r="50%">
+      <stop offset="0%" stop-color="#ED2100" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#180e08" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d120a"/>
+      <stop offset="55%" stop-color="#150c07"/>
+      <stop offset="100%" stop-color="#0c0704"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1a10" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0c0704" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#base)"/>
+  <rect width="1600" height="900" fill="url(#glow1)"/>
+  <rect width="1600" height="900" fill="url(#glow2)"/>
+
+  <!-- table surface -->
+  <rect x="0" y="620" width="1600" height="280" fill="url(#table)"/>
+
+  <!-- candle bokeh -->
+  <g filter="url(#soft)">
+    <circle cx="420" cy="300" r="26" fill="#ffb066" opacity="0.85"/>
+    <circle cx="760" cy="430" r="16" fill="#ffce8a" opacity="0.7"/>
+    <circle cx="1180" cy="360" r="20" fill="#ff9a4d" opacity="0.6"/>
+    <circle cx="1040" cy="560" r="12" fill="#ffd9a0" opacity="0.55"/>
+    <circle cx="300" cy="540" r="10" fill="#ffbe7a" opacity="0.5"/>
+  </g>
+
+  <!-- vignette -->
+  <rect width="1600" height="900" fill="#0c0704" opacity="0"/>
+  <radialGradient id="vig" cx="50%" cy="46%" r="75%">
+    <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.6"/>
+  </radialGradient>
+  <rect width="1600" height="900" fill="url(#vig)"/>
+</svg>
